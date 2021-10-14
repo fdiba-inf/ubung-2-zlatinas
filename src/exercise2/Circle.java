@@ -8,11 +8,11 @@ public class Circle {
      Scanner input = new Scanner(System.in);
 
        
-        double r= input.nextDouble();
+        double r=input.nextDouble();
         double Pi= 3.14;
         double C=2*Pi*r;
         double A=Pi*r*r;
-        System.out.println("Circumference:= "+C);
+        System.out.println("Circumference:"+C);
         System.out.println("Area: "+A);
     }
 
