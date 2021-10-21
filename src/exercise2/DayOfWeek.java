@@ -39,7 +39,7 @@ public class DayOfWeek {
        break;
 
        default:
-       System.out.println("Invalid day");
+       System.out.println("Day of week: Invalid day");
 
       
 
