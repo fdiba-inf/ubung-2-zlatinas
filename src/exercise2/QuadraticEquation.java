@@ -8,13 +8,13 @@ public class QuadraticEquation {
 public static void main(String[] args) {
     Scanner input = new Scanner(System.in); 
 
-    System.out.println("a=");
+  
     double a = input.nextInt();
 
-    System.out.println("b=");
+   
     double b = input.nextInt();
 
-    System.out.println("c=");
+    
     double c = input.nextInt();
 
     double D = (b*b)-(4.0*a*c);

@@ -7,37 +7,35 @@ public class DayOfWeek {
 
      Scanner input = new Scanner(System.in);
 
-     System.out.print("Enter a number:");
-
      int number = input.nextInt();
 
      switch(number) {
        case 1:
-       System.out.println("Day of week:Monday");
+       System.out.println("Day of week: Monday");
        break;
 
        case 2:
-       System.out.println("Day of week:Tuesday");
+       System.out.println("Day of week: Tuesday");
        break;
 
        case 3:
-       System.out.println("Day of week:Wednesday");
+       System.out.println("Day of week: Wednesday");
        break;
 
        case 4:
-       System.out.println("Day of week:Thursday");
+       System.out.println("Day of week: Thursday");
        break;
 
        case 5:
-       System.out.println("Day of week:Friday");
+       System.out.println("Day of week: Friday");
        break;
 
        case 6:
-       System.out.println("Day of week:Saturday");
+       System.out.println("Day of week: Saturday");
        break;
 
        case 7:
-       System.out.println("Day of week:Sunday");
+       System.out.println("Day of week: Sunday");
        break;
 
        default:
