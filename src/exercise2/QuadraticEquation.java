@@ -28,8 +28,8 @@ public static void main(String[] args) {
       if (D>=0) {
         x1 = (-b + Math.sqrt(D)) / (2*a);
         x2 = (-b + Math.sqrt(D)) / (2*a);
-        System.out.println(x1);
-        System.out.println(x2);
+        System.out.println(x1 + ", " + x2); 
+        
 
       } else {
         System.out.println("Imaginary values");
